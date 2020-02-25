@@ -41,17 +41,25 @@ We did exploratory analysis to better understand the game process and our data.
 
 ## Modeling and Results
 - We find GBM is the most accurate in terms of both training accuracy and test accuracy (73.17% is also close to the highest accuracy in related literature, which is around 75%).
-![Type prediction result](https://github.com/tracyzg1818/NFL-Predicting-Play-Types-and-Play-Yards/blob/master/Predicting%20Play%20Types/Accuracy%20Summary%20for%20Predicting%20Play%20Types.png?raw=true)
 
+<p align="center">
+  <img src="https://github.com/tracyzg1818/NFL-Predicting-Play-Types-and-Play-Yards/blob/master/Predicting%20Play%20Types/Accuracy%20Summary%20for%20Predicting%20Play%20Types.png?raw=true" alt="result1"/>
+</p>
 
 - XGBoost Model is the best model with the smallest RSME of 2.763, thus it would be our backend algorithm for our recommendation system.
-![Yards prediction result](https://github.com/tracyzg1818/NFL-Predicting-Play-Types-and-Play-Yards/blob/master/Predicting%20Rush%20Yards/Accuracy%20Summary%20for%20Predicting%20Rush%20Yards.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/tracyzg1818/NFL-Predicting-Play-Types-and-Play-Yards/blob/master/Predicting%20Rush%20Yards/Accuracy%20Summary%20for%20Predicting%20Rush%20Yards.png?raw=true" alt="result2"/>
+</p>
 
 ## Defensive Play Recommendation system
 At last, we created a recommendation system program to help defensive teams minimize the yardage gain by the offensive teams with <b>Python Tkinter GUI</b>. Here is the basic idea: 
 - After the program receives all the inputs from the user, it would call the XGBoost model to iterate all possible combinations of DefendersInTheBox and DefensePersonnel. 
 - Then, the program would sort the results with ascending order and show the Top 5 combinations the defensive team could adopt to minimize the yardage gained by the opponent. Here's a sample output:
-![Yards prediction result](https://github.com/tracyzg1818/NFL-Predicting-Play-Types-and-Play-Yards/blob/master/Predicting%20Rush%20Yards/Defensive%20Play%20Recommendation%20System.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/tracyzg1818/NFL-Predicting-Play-Types-and-Play-Yards/blob/master/Predicting%20Rush%20Yards/Defensive%20Play%20Recommendation%20System.png?raw=true" alt="Defensive Recommendation System"/>
+</p>
 
 ## Reference
 - Fernandes, C., Yakubov, R., Li, Y., Prasad, A., and Chan, T., Predicting plays in the National Football League 
