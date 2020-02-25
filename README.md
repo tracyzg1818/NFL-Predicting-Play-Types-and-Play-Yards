@@ -1,6 +1,9 @@
 # Predicting Play Type and Play Yards in NFL Games
 The project used game-level, play-level and player-level NFL data to conduct exploratory analysis, built machine learning models to predict play type (rush/pass) and rush yards, and built a recommendation system for defensive play.
 
+## Contribution
+This is the group project for IEOR_E4523 Data Analytics at Columbia University. It's jointly developed by Max Wong, Clover Liu, Y. Sun, and Jerome Gu. Jerome Gu is responsible for the overall planning and predicting play types.
+
 ## Technologies
 The project is created with:
 * Python version: 3.7
@@ -49,9 +52,6 @@ At last, we created a recommendation system program to help defensive teams mini
 - After the program receives all the inputs from the user, it would call the XGBoost model to iterate all possible combinations of DefendersInTheBox and DefensePersonnel. 
 - Then, the program would sort the results with ascending order and show the Top 5 combinations the defensive team could adopt to minimize the yardage gained by the opponent. Here's a sample output:
 ![Yards prediction result](https://github.com/tracyzg1818/NFL-Predicting-Play-Types-and-Play-Yards/blob/master/Predicting%20Rush%20Yards/Defensive%20Play%20Recommendation%20System.png?raw=true)
-
-## Contribution
-The project is jointly developed by Max Wong, Clover Liu, Y. Sun, and Jerome Gu. Jerome Gu is responsible for the overall planning and predicting play types.
 
 ## Reference
 - Fernandes, C., Yakubov, R., Li, Y., Prasad, A., and Chan, T., Predicting plays in the National Football League 
